@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="493.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <AnchorPane prefHeight="151.0" prefWidth="307.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="131.0" fitWidth="207.0" layoutX="54.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/RaftingKlubKanjon.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="140.0" fitWidth="193.0" layoutX="62.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/DajakKlubBanjaLuka.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="52.0" layoutY="7.0" prefHeight="17.0" prefWidth="206.0" style="-fx-background-color: lightBlue;" text="      RAFTING CLUB KANJON" textAlignment="CENTER" textFill="#2e098c">
+               <font>
+                  <Font name="Georgia" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="54.0" layoutY="219.0" prefHeight="20.0" prefWidth="202.0" style="-fx-background-color: lightBlue;" text="    DAJAK CLUB BANJA LUKA" textAlignment="CENTER" textFill="#2e098c">
+               <font>
+                  <Font name="Georgia" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="117.0" layoutY="174.0" mnemonicParsing="false" text="SEARCH">
+               <font>
+                  <Font name="Georgia" size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="115.0" layoutY="397.0" mnemonicParsing="false" text="SEARCH">
+               <font>
+                  <Font name="Georgia" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="418.0" prefWidth="315.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="131.0" fitWidth="180.0" layoutX="80.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/RonalicakiKlubBuk.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="141.0" fitWidth="179.0" layoutX="93.0" layoutY="249.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/KajakKanuVrbas.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="75.0" layoutY="6.0" prefHeight="16.0" prefWidth="190.0" style="-fx-background-color: lightBlue;" text="         DIVING CLUB BUK" textAlignment="CENTER" textFill="#2e098c">
+               <font>
+                  <Font name="Georgia" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="85.0" layoutY="219.0" prefHeight="20.0" prefWidth="188.0" style="-fx-background-color: lightBlue;" text="  KAJAK KANU CLUB VRBAS" textAlignment="CENTER" textFill="#2e098c">
+               <font>
+                  <Font name="Georgia" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="132.0" layoutY="170.0" mnemonicParsing="false" text="SEARCH">
+               <font>
+                  <Font name="Georgia" size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="132.0" layoutY="397.0" mnemonicParsing="false" text="SEARCH">
+               <font>
+                  <Font name="Georgia" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </right>
+   <top>
+      <AnchorPane prefHeight="56.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="58.0" layoutY="-3.0" prefHeight="56.0" prefWidth="584.0" style="-fx-background-color: lightBlue;" text="    VRBAS SAILORS REPRESENTATION" textFill="#2e098c">
+               <font>
+                  <Font name="Georgia Bold" size="27.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="58.0" fitWidth="62.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/Sailors.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>
